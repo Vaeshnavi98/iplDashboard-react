@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.div-deco {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-between;
+  border-radius: 7px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+@media screen and (max-width: 720px) {
+  .div-deco {
+    width: 500px;
+  }
+}
+p {
+  color: white;
+  font-family: Bree Serif;
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-url {
+  height: 60px;
+  width: 50px;
+}
+.link-deco {
+  text-decoration: none;
+}

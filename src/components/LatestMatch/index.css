@@ -1,0 +1,25 @@
+/* Write your CSS here */
+h3 {
+  color: white;
+}
+.inner-div-deco {
+  background-color: #1e293b;
+  border-radius: 7px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.competing-logo-deco {
+  height: 200px;
+  width: 300px;
+  margin-top: 50px;
+}
+.deco-1 {
+  margin-top: 40px;
+}
+.inner-logo {
+  height: 100h;
+  width: 100vh;
+}
